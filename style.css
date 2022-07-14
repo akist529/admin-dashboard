@@ -25,22 +25,27 @@
         padding: 40px 0;
     }
 
-        .sidebar > ul li {
+        .sidebar > ul > a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .sidebar > ul > a > li {
             display: flex;
             align-items: center;
             line-height: 50px;
         }
 
-        .sidebar > ul li:nth-child(6) {
+        .sidebar > ul > a:nth-child(6) > li {
             padding: 0 0 40px;
         }
 
-        .sidebar > ul img {
+        .sidebar ul a img {
             height: 20px;
             filter: invert(100%);
         }
 
-        .sidebar > ul h2 {
+        .sidebar ul a h2 {
             display: inline-block;
             margin-left: 20px;
         }
